@@ -62,7 +62,7 @@ int main(int argc, char** argv)
 		if(0 == strcmp("q", line))
 			break;
 	}
-	destroy_bloom(b);
+	destroy_bloom(b1);
 
 	return 0;
 }
